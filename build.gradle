@@ -1,6 +1,7 @@
 plugins {
     id 'fabric-loom' version '1.2-SNAPSHOT'
     id 'maven-publish'
+    id "com.modrinth.minotaur" version "2.+"
 }
 
 version = project.mod_version
@@ -70,6 +71,21 @@ loom {
         }
     }
     // ...
+}
+
+import com.modrinth.minotaur.dependencies.ModDependency
+
+modrinth {
+    token = System.getenv("MODRINTH_TOKEN") // Please use an environment variable for this! The default is `$MODRINTH_TOKEN`.
+    projectId = 'xu3q3P0V' // The ID of your Modrinth project. Slugs will not work.
+    versionName = "Luckius' Repair Gems ${version}"; // The version title. If not specified, it'll use the version number
+    uploadFile = remapJar // Tells Minotaur to use the remapped jar
+    dependencies {
+        required.project("fabric-api")
+        required.project("owo-lib")
+        required.project("trinkets")
+        optional.project("modmenu")
+    }
 }
 
 processResources {
