@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "repair_gems:weak_repair_gem",
+    "repair_gems:basic_repair_gem",
+    "repair_gems:strong_repair_gem",
+    "repair_gems:better_repair_gem",
+    "repair_gems:ultimate_repair_gem"
+  ]
+}

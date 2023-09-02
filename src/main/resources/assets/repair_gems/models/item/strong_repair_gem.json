@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "repair_gems:item/strong_repair_gem"
+  }
+}

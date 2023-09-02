@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "repair_gems",
+  "version": "${version}",
+  "name": "Repair Gems",
+  "description": "A simple mod that adds a new item called a Repair Gem that undo the damage on your items. An alternative to Mending !",
+  "authors": [
+    "Luckius (Owner)",
+    "Shylie (Contributor)"
+  ],
+  "contact": {
+    "website": "https://modrinth.com/mod/repair-gems",
+    "repo": "https://github.com/MrLucky974/repair-gems"
+  },
+  "license": "MIT",
+  "icon": "assets/repair_gems/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.luckius.repair_gems.data.RepairGemsDatagen"
+    ],
+    "client": [
+      "net.luckius.repair_gems.client.RepairGemsClient"
+    ],
+    "main": [
+      "net.luckius.repair_gems.RepairGems"
+    ]
+  },
+  "mixins": [
+    "repair_gems.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "owo-lib": ">=0.11.1+1.20",
+    "trinkets": ">=3.7.0"
+  },
+  "suggests": {
+    "modmenu": ">=7.0.0"
+  }
+}

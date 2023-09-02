@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#N#",
+        "RJR",
+        "#N#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:echo_shard"
+        },
+        "N": {
+            "item": "minecraft:netherite_scrap"
+        },
+        "R": {
+            "item": "repair_gems:better_repair_gem"
+        },
+        "J": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "repair_gems:ultimate_repair_gem",
+        "count": 1
+    },
+    "group": "repair_gems"
+}

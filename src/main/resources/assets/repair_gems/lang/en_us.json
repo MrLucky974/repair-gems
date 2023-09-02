@@ -1,0 +1,16 @@
+{
+  "item.repair_gems.basic_repair_gem": "Basic Repair Gem",
+  "item.repair_gems.better_repair_gem": "Better Repair Gem",
+  "item.repair_gems.strong_repair_gem": "Strong Repair Gem",
+  "item.repair_gems.ultimate_repair_gem": "Ultimate Repair Gem",
+  "item.repair_gems.weak_repair_gem": "Weak Repair Gem",
+  "itemGroup.repair_gems.repair_gems": "Repair Gems",
+  "text.config.repair_gems_config.option.repairOtherGems": "Repair other gems",
+  "text.config.repair_gems_config.option.repairOtherGems.tooltip": "By default, gems don't repair each other.\nIf enabled, gems can repair each other and themselves (Really OP).",
+  "text.config.repair_gems_config.option.repairSingleItem": "Repair single item",
+  "text.config.repair_gems_config.option.repairSingleItem.tooltip": "If enabled, repair gems only repair one item before activating cooldown.\nElse, it repairs every damaged item in the inventory.",
+  "text.config.repair_gems_config.option.unbreakable": "Unbreakable",
+  "text.config.repair_gems_config.option.unbreakable.tooltip": "If disabled, repair gems can be broken.",
+  "tooltip.repair_gems.hold_shift": "<Hold SHIFT>",
+  "tooltip.repair_gems.repair_gem.expanded_tooltip": "Repair items in the holder's inventory every %.2f seconds."
+}

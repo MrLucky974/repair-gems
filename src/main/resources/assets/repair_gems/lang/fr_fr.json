@@ -1,0 +1,15 @@
+{
+  "item.repair_gems.basic_repair_gem": "Gemme de réparation basique",
+  "item.repair_gems.better_repair_gem": "Gemme de réparation améliorée",
+  "item.repair_gems.strong_repair_gem": "Gemme de réparation forte",
+  "item.repair_gems.ultimate_repair_gem": "Gemme de réparation ultime",
+  "item.repair_gems.weak_repair_gem": "Gemme de réparation faible",
+  "text.config.repair_gems_config.option.repairOtherGems": "Réparer les autres gemmes",
+  "text.config.repair_gems_config.option.repairOtherGems.tooltip": "Par défaut, les gemmes ne se réparent pas les uns les autres.\nSi activé, les gemmes peuvent se réparer entre elles.",
+  "text.config.repair_gems_config.option.repairSingleItem": "Réparer un seul objet",
+  "text.config.repair_gems_config.option.repairSingleItem.tooltip": "Si activé, les gemmes de réparation ne réparent qu'un seul objet avant d'activer le temps de recharge.\nSinon, la gemme répare tous les objets dans l'inventaire.",
+  "text.config.repair_gems_config.option.unbreakable": "Incassable",
+  "text.config.repair_gems_config.option.unbreakable.tooltip": "Si désactivé, les gemmes de réparation peuvent être cassées.",
+  "tooltip.repair_gems.hold_shift": "<Maintenir MAJ>",
+  "tooltip.repair_gems.repair_gem.expanded_tooltip": "Répare les objets dans l'inventaire du détenteur toutes les %.2f secondes."
+}

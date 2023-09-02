@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/D/",
+        "RGR",
+        "/D/"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:blaze_rod"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "R": {
+            "item": "repair_gems:basic_repair_gem"
+        },
+        "G": {
+            "item": "minecraft:gold_block"
+        }
+    },
+    "result": {
+        "item": "repair_gems:strong_repair_gem",
+        "count": 1
+    },
+    "group": "repair_gems"
+}

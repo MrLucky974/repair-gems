@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/S/",
+        "RER",
+        "/S/"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:blaze_rod"
+        },
+        "S": {
+            "item": "minecraft:shulker_shell"
+        },
+        "R": {
+            "item": "repair_gems:strong_repair_gem"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        }
+    },
+    "result": {
+        "item": "repair_gems:better_repair_gem",
+        "count": 1
+    },
+    "group": "repair_gems"
+}

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "RER",
+        " V "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "R": {
+            "item": "repair_gems:weak_repair_gem"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "V": {
+            "item": "minecraft:emerald"
+        }
+    },
+    "result": {
+        "item": "repair_gems:basic_repair_gem",
+        "count": 1
+    },
+    "group": "repair_gems"
+}
